@@ -52,7 +52,7 @@ ex:
 $ tar -cjf <nomeArquivo>.tar.bz2 <arquivo ou diretorio>
 
 
-#### Comandos de leitura de arquivos. ####
+### Comandos de leitura de arquivos. ###
 
 -n nummero de linhas
 
@@ -70,7 +70,7 @@ $ less <nomeAquiro>
 
 
 
-#### Comandos editor de texto vi. ####
+### Comandos editor de texto vi. ###
 $ i entrar no modo de insercao
 $ a entrar no modo de insercao so proximo espaco
 $ x remove o caracter sem entrar no modo de insercao.
@@ -114,7 +114,7 @@ $ killall <nomeProcesso>   *matando todos os processo pelo nome do comando.
 $ killall -9 <nomeProcesso> *mata todos os processos pelo nome do comando em definitivo.
 
 
-# redirecionando o conteudo para o programa grep "|" (indica se a saída deve ser redirecionado para um programa)
+### redirecionando o conteudo para o programa grep "|" (indica se a saída deve ser redirecionado para um programa)
 $ <comando> | grep <filtroDesejado>
 
 
@@ -132,7 +132,7 @@ $ CTRL+C mata o processo de vez.
 $ jobs <nomeDaAplicao> & * já inicia um processo em BackGround.
 
 
-##### chmod ####
+### chmod ###
 -r  leitura
 -w  escrita
 -x  execucao
@@ -164,7 +164,7 @@ $ chmod +x
 
 
 
-##### busca de arquivos #####
+### busca de arquivos ###
 # buscar por arquivos e programas no sistema operacional
 $ locate <nomeDoArquivo>
 

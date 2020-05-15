@@ -56,16 +56,16 @@ $ tar -cjf <nomeArquivo>.tar.bz2 <arquivo ou diretorio>
 
 -n nummero de linhas
 
-# retorna as 10 primeiras linhas do inicio do arquivo
+#retorna as 10 primeiras linhas do inicio do arquivo
 $ head <nomeAquiro>
 
-# retorna as 10 primeiras linhas do final do arquivo
+#retorna as 10 primeiras linhas do final do arquivo
 $ tail <nomeAquiro>
 
-# utilizando o -n para informar o numero de linhas desejados ex:
+#utilizando o -n para informar o numero de linhas desejados ex:
 $ head -n <nomeAquiro>
 
-# comando para ler todo arquivo utlizando as setas para direcionar para cima ou para baixo.
+#comando para ler todo arquivo utlizando as setas para direcionar para cima ou para baixo.
 $ less <nomeAquiro>
 
 
@@ -88,22 +88,22 @@ $ p cola texto copiado.
 $ <quantidadeDeRepeticao> p de acordo com numero informado repete as copias.
 
 
-# lista os processos em execucao
+#lista os processos em execucao
 $ ps -e 
 $ ps -ef
 
-# lista os processos em execucao e mostra o caminho do arquivo.
+#lista os processos em execucao e mostra o caminho do arquivo.
 $ ps -ea 
 
-# lista os processos em execucao em formato arvore.
+#lista os processos em execucao em formato arvore.
 $ pstree
 
-# lista os processo em execucao por consumo.
+#lista os processo em execucao por consumo.
 $ top
 $ top -u <nomeUsuario>     *mostrar apenas os processos de um determinado usuário
 $ top -p <idProcesso>      *acompanhar as informações de um processo específico
   
-# mata um processo
+#mata um processo
 $ kill -TERM <idProcesso>  *e permitir que ele possa realizar algumas tarefas antes de ser encerrado
 $ kill <idProcesso>        *por default quando nao passado opção é TERM
 $ kill -9 <idProcesso>     *mata um processo em definitivo
@@ -165,15 +165,15 @@ $ chmod +x
 
 
 ### busca de arquivos ###
-# buscar por arquivos e programas no sistema operacional
+#buscar por arquivos e programas no sistema operacional
 $ locate <nomeDoArquivo>
 
 $ sudo updatedb *Faz atualizaçao da base de dados do linux na busca de arquivos.
 
-# Para saber onde os programas estão instalados
+#Para saber onde os programas estão instalados
 $ which <nomeDoPrograma> 
 
-# mudar a senha do usuario
+#mudar a senha do usuario
 $ passwd 
 $ sudo passwd       *Muda a senha do usuaro root
 

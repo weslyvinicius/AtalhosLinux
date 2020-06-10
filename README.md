@@ -5,16 +5,16 @@ Quia de alguns atalhos do linux terminal
 ### zip ####
 
 #zipar um arquivo ou diretorio
-zip -r   <nomeArquivo>.zip   <arquivo ou diretorio>
+$ zip -r   <nomeArquivo>.zip   <arquivo ou diretorio>
 
 #descompactar
-unzip -r   <nomeArquivo>.zip
+$ unzip -r   <nomeArquivo>.zip
 
 #listar arquivos dentro do zip
-unzip -r   <nomeArquivo>.zip
+$ unzip -r   <nomeArquivo>.zip
 
 #mostar menos log da descompactacao
-unzip -r   <nomeArquivo>.zip
+$ unzip -r   <nomeArquivo>.zip
 
 
 ### tar ###
